@@ -15,10 +15,10 @@ function ex2()
 {
     //Exercício 2. Escreva um programa que pergunte o nome e o sobrenome do usuário e escreva na tela: "Olá, -usuário-".
 
-    let nome = prompt("Qual seu nome?");
-    let sobrenome = prompt("Qual é seu sobrenome?");
+    let nome = document.getElementById("nome").value;
+    let sobrenome = document.getElementById("sobrenome").value;
 
-    alert("Olá, " + nome + " " + sobrenome);
+    document.getElementById("result").innerHTML = ("Olá, " + nome + " " + sobrenome + "!");
 }
 
 function ex3()

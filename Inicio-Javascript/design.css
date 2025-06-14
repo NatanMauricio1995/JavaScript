@@ -202,7 +202,7 @@ a
     
 }
 
-#calcular, #limpar
+#fazer, #limpar
 {
     text-align: center;
     width: 30%;
@@ -219,7 +219,7 @@ a
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 
-#calcular:hover, #limpar:hover
+#fazer:hover, #limpar:hover
 {
     background-color: var(--cor_azul-claro);
     transform: scale(1.05);
