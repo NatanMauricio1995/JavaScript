@@ -25,13 +25,12 @@ function ex3()
 {
     //Exercício 3. Escreva uma calculadora que receba um valor em reais e converta para dólar. Considere o valor do dólar a R$5,25.
 
-    let real = prompt("Digite o valor em reais para ser convertido em dolar:");
+    let real = parseFloat(document.getElementById("numero1").value);
     
-    let dolar = Number(real) / 5.25;
+    let dolar = (real) / 5.25;
     
-    alert("R$ " + real + " = " + "U$ " + dolar.toFixed(2));
+    document.getElementById("result").innerHTML = ("R$ " + real.toFixed(2) + " = U$ " + dolar.toFixed(2));
 }
-
 function ex4()
 {
     //Exercício 4. Construa um algoritmo que leia um número inteiro na tela e responda o número antecessor e o sucessor.

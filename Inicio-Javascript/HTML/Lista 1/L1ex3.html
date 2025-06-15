@@ -12,42 +12,34 @@
   <body>
     <header>
         <h1>Exercícios de JavaScript</h1>
-        <h2 class="titulo_lista">Lista de Exercícios nº 1 - Exercício nº 2 - Saudação</h2>
+        <h2 class="titulo_lista">Lista de Exercícios nº 1 - Exercício nº 3 - Conversão de Moeda</h2>
     </header>
     <main>
         <form class="escolhas" action="POST">
             <div>
-                <label for="nome">Digite seu nome:</label>
-                <input type="text" name="nome" id="nome">
-            </div>
-            <div>
-                <label for="sobrenome">Digite seu sobrenome:</label>
-                <input type="text" name="sobrenome" id="sobrenome" select="Seu nome">
+                <label for="numero1">Digite o valor em reais (R$):</label>
+                <input id="numero1" type = "number" step="0.01" value="0">
             </div>
             <div class="botoes">
-                <input id="fazer" onclick="ex2()" type="button" value="Resposta" select="Seu sobrenome">
-                <button id="limpar" type="reset">Limpar</button>
+              <button id="limpar" type="reset">Limpar</button>
+              <input id="fazer" onclick="ex3()" type="button" value="Calcular">
             </div>
             
             <div id="result"></div>
+
         </form>
         
         <div class="voltar">
           <a href="../index.html">Início</a>
-          <a href="../Lista1.html">Voltar a lista 1</a>     
+          <a href="../Lista1.html">Voltar a lista 1</a>
+          
         </div>
 
   </main>
   <footer>
     <p>Desenvolvido por Natan Mauricio Santos</p>
   </footer>
-    
-
-
-
-  <script src="../../JavaScript/exercicio1.js"></script>
   
+  <script src="../../JavaScript/exercicio1.js"></script>
 
-
-  </body>
-</html>
+  </html>
